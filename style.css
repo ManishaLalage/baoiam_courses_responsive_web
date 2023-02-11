@@ -226,7 +226,7 @@ justify-content: center;
 
 
 	.home{
-    top: 70px;
+    top: 171px;
 		height: 120vh;
 	}
 
@@ -236,12 +236,15 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     }
-    /* .navbar{
+    .navbar{
         display: flex;
-        flex-wrap: wrap;
+  flex-wrap: wrap;
+
+        /* padding: 2px 2px; */
+        /* flex-wrap: wrap;
         align-items: center;
-        justify-content: center; 
-    }*/
+        justify-content: center;  */
+    }
     .home-text h1{
       /* font-size: va; */
       font-size: 15px;
@@ -263,6 +266,120 @@ justify-content: center;
     .navbar a{
       padding: 0px 5px;
     }
-
-
   }
+
+
+
+
+  
+/* section2 */
+
+
+
+.we__offer {
+    background-color: #fcfafa;
+  
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .we__offer h1 {
+    display: block;
+    padding: 20px 20px;
+    font-weight: 600;
+    font-size: 3rem;
+    font-style: italic;
+    align-content: center;
+    justify-content: center;
+    margin: 1% 30%;
+  }
+  
+  .we__offer_card:hover {
+    transform: scale(1.05);
+  }
+  
+  .we__offer_card {
+    background-color: white;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    width: 400px;
+    margin-bottom: 30px;
+  }
+  
+  .we__offer_card .course_img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .we__offer_content {
+    padding: 20px;
+  }
+  .we__offer_content h2 {
+    font-size: 20px;
+  }
+  .we__offer_content .btnbg {
+    display: inline;
+    padding: 12px 12px;
+    border-radius: 50px;
+  }
+  
+  #btnbg1 {
+    top: auto;
+    background-color: rgb(225, 162, 196);
+  }
+  
+  #btnbg2 {
+    background-color: rgb(135, 193, 152);
+  }
+  
+  #btnbg3 {
+    background-color: rgb(225, 225, 107);
+  }
+  
+  .we__offer_content h1 {
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .we__offer_content .subcontent {
+    font-size: 15px;
+  }
+  .small_section ul {
+    display: flex;
+    gap: 9%;
+  }
+  ul li {
+    list-style: none;
+    padding: 20px 20px;
+    font-size: 17px;
+  }
+  
+  li .color {
+    color: var(--main-color);
+  }
+  
+  .course_btn {
+    margin-top: 4%;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color:var(--main-color);
+    margin-left: 2%;
+    padding: 15px 25px;
+  }
+  .course_btn:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 1sec;
+    cursor: pointer;
+  } 
+  
