@@ -203,6 +203,7 @@ header.sticky{
 		gap: 1rem;
 	}
 header{
+	height: 80px;
 display: flex;
 flex-wrap: wrap;
 align-items: center;
@@ -246,7 +247,6 @@ justify-content: center;
         justify-content: center;  */
     }
     .home-text h1{
-      /* font-size: va; */
       font-size: 15px;
     }
     .home-text h6{
@@ -274,16 +274,18 @@ justify-content: center;
   
 /* section2 */
 
+/* .container{
+	width: 90%;
 
+} */
 
 .we__offer {
-    background-color: #fcfafa;
-  
+    background-color: #d38686;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    align-items: center;
+    align-content: center;
     justify-content: center;
   }
   
@@ -291,11 +293,11 @@ justify-content: center;
     display: block;
     padding: 20px 20px;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style: italic;
     align-content: center;
     justify-content: center;
-    margin: 1% 30%;
+    margin: 1% 16%;
   }
   
   .we__offer_card:hover {
@@ -304,12 +306,12 @@ justify-content: center;
   
   .we__offer_card {
     background-color: white;
-    height: 700px;
+    height: 620px;
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #e0e0e0;
     transition: all 0.3s ease;
-    width: 400px;
+    width: 340px;
     margin-bottom: 30px;
   }
   
@@ -323,7 +325,8 @@ justify-content: center;
     padding: 20px;
   }
   .we__offer_content h2 {
-    font-size: 20px;
+    font-size: 15px;
+	padding: 2px 2px;
   }
   .we__offer_content .btnbg {
     display: inline;
@@ -351,15 +354,16 @@ justify-content: center;
   }
   
   .we__offer_content .subcontent {
-    font-size: 15px;
+    font-size: 12px;
+	font-weight: 400;
   }
   .small_section ul {
     display: flex;
     gap: 9%;
   }
   ul li {
-    list-style: none;
-    padding: 20px 20px;
+    /* list-style: none; */
+    padding: 15px 0px;
     font-size: 17px;
   }
   
@@ -368,7 +372,7 @@ justify-content: center;
   }
   
   .course_btn {
-    margin-top: 4%;
+    /* margin-top: 2%; */
     color: white;
     border: 2px solid transparent;
     border-radius: 20px;
